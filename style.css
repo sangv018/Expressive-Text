@@ -1,0 +1,133 @@
+body {
+    height: 1500px;
+    margin-top: 5%;
+    background: linear-gradient( #FF9933 5%, #FFFFFF 68%, #138808 95%);
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #02023d;
+    font-style:initial;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: 35px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+#poet 
+
+.one:hover {
+    color: #050c72;
+    text-shadow:20px 20px 50px #050c72;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.two:hover {
+    color: #0b17bd;
+    text-shadow:20px 20px 50px #0b17bd;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; 
+}
+
+.three:hover {
+    color: #0d45df;
+    text-shadow:20px 20px 50px #0d45df;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; 
+}
+
+.four:hover {
+    color: #4fa9fd;
+    text-shadow:20px 20px 50px #4fa9fd;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; 
+}
+
+.five:hover {
+    color: #39d0fd;
+    text-shadow:20px 20px 50px #39d0fd;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; 
+}
+
+.six:hover {
+    color: #8af7ff;
+    text-shadow:20px 20px 50px #8af7ff;
+    -moz-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in; 
+}
+
+h1:hover {
+    align-self: center;
+  @include transition(all 0.3s ease);
+  @include transform3d(rotateX(50deg) rotateZ(1deg));
+  font-family: 'Times New Roman', Times, serif
+  font-weight: 700;
+  font-size: 6em;
+  color: #1e47ce;
+  text-shadow:
+    rgb(25, 25, 255) 0.006em 0.006em 0.007em,
+    #11105a 1px 1px 1px,
+    #11105a 1px 2px 1px,
+    #11105a 1px 3px 1px,
+    #11105a 1px 4px 1px,
+    #11105a 1px 5px 1px,
+    #11105a 1px 6px 1px,
+    #11105a 1px 7px 1px,
+    #11105a 1px 8px 1px,
+    #11105a 1px 9px 1px,
+    #11105a 1px 10px 1px,
+    #11105a 1px 11px 1px,
+    #11105a 1px 12px 1px,
+    rgba(24, 33, 172, 0.4) 1px 18px 6px,
+    rgba(24, 33, 172, 0.4) 1px 22px 10px,
+    rgba(24, 33, 172, 0.4) 1px 26px 35px,
+    rgba(24, 33, 172, 0.4) 1px 30px 65px,
+    rgb(80, 26, 26) -0.15em -0.1em 100px;
+ &:hover {
+    margin-top: -20px;
+    text-shadow:
+    white 0.006em 0.006em 0.007em,
+    #11105a 1px 1px 1px,
+    #11105a 1px 2px 1px,
+    #11105a 1px 3px 1px,
+    #11105a 1px 4px 1px,
+    #11105a 1px 5px 1px,
+    #11105a 1px 6px 1px,
+    #11105a 1px 7px 1px,
+    #11105a 1px 8px 1px,
+    #11105a 1px 9px 1px,
+    #11105a 1px 10px 1px,
+    #11105a 1px 11px 1px,
+    #11105a 1px 12px 1px,
+    rgba(16, 16, 16, 0.4) 1px 38px 26px,
+    rgba(16, 16, 16, 0.2) 1px 42px 30px,
+    rgba(16, 16, 16, 0.2) 1px 46px 65px,
+    rgba(16, 16, 16, 0.4) 1px 50px 95px,
+    white -0.15em -0.1em 100px;
+  }
+
